@@ -72,7 +72,7 @@ namespace Problem1
                         //////////////////////////////////////////////////////////////
                         //WRITE YOUR CODE BELOW
 
-                        sUpper = aDel(s);
+                        sUpper = aDel.Invoke(theWord);
 
 
                         //Write the value in sUpper to console
@@ -96,7 +96,7 @@ namespace Problem1
                         //WRITE YOUR CODE BELOW
 
 
-                        sLength = bDel(s);
+                        sLength = bDel.Invoke(theWord);
 
                         //Write the value in sLength to console
                         Console.WriteLine("Length: " + sLength);

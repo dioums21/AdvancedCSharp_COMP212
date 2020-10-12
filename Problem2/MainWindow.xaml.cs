@@ -112,7 +112,7 @@ namespace Problem2
             ///////////////////////////////////////////////////////////////
             //WRITE YOUR CODE BELOW
 
-            sLength = bDel.Invoke(theWord);
+            sLength = bDel(theWord);
 
             ///Write the value in sLength to textBlock
             //WRITE YOUR CODE BELOW

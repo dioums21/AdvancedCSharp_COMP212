@@ -96,7 +96,7 @@ namespace Problem1
                         //WRITE YOUR CODE BELOW
 
 
-                        sLength = bDel.Invoke(theWord);
+                        sLength = bDel(theWord);
 
                         //Write the value in sLength to console
                         Console.WriteLine("Length: " + sLength);
